@@ -65,6 +65,7 @@ li {
 
 .contact {
   background-color: #fff;
+  margin-bottom: 30px;
 }
 .container_small {
   background-color: #1ABC9C;
@@ -82,4 +83,18 @@ li {
 .data {
   background-color: green;
   height: 400px;
+}
+
+.footer_up {
+  background-color: #2C3E50;
+  color: #fff;
+  padding-top: 30px
+}
+.footer_down {
+  background-color: #1A252F;
+  padding-top: 20px;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
 }
