@@ -20,7 +20,7 @@ li {
 
 .title {
   width: 40%;
-  height: 400px;
+
   background-color: skyblue;
   margin: 80px auto;
   padding-top: 20px;
@@ -98,3 +98,14 @@ li {
   text-align: center;
   color: #fff;
 }
+
+/* responsive  */
+
+@media (max-width: 768px) {
+  .container_small {
+    padding: 30px;
+  }
+  
+ }
+@media (min-width: 768px) and (max-width: @screen-sm-max) { ... }
+@media (min-width:992px) and (max-width: @screen-md-max) { ... }
