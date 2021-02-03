@@ -14,4 +14,30 @@ li {
 }
 .second-nav {
   text-align: right;
+  padding: 20px 0;
+}
+
+.jumbotron {
+  background-color: #1ABC9C;
+  height: 600px;
+}
+
+.title {
+  width: 40%;
+  height: 400px;
+  background-color: skyblue;
+  margin: 80px auto;
+  padding-top: 20px;
+}
+
+.boy {
+  height: 200px;
+  background-color:#fff;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.jumbo_title {
+  text-align: center;
 }
