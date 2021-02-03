@@ -48,6 +48,9 @@ li {
 .box {
   background-color: #BA4C63;
   height: 200px;
-  
+  border-radius: 20px;
+}
 
+.mb-5 {
+  margin-bottom: 3rem;
 }
