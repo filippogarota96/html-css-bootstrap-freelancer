@@ -4,10 +4,6 @@
   color: #fff;
 }
 
-.container {
-  height: 100%;
-}
-
 li {
   list-style: none;
   display: inline-block;
@@ -40,4 +36,18 @@ li {
 
 .jumbo_title {
   text-align: center;
+}
+
+/* corpo del testo */
+
+.section_title{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.box {
+  background-color: #BA4C63;
+  height: 200px;
+  
+
 }
