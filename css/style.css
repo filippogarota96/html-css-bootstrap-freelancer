@@ -54,3 +54,20 @@ li {
 .mb-5 {
   margin-bottom: 3rem;
 }
+
+.portfolio {
+  padding-bottom: 50px;
+}
+
+.about {
+  background-color: #1ABC9C;
+}
+.container_small {
+  background-color: #1ABC9C;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about_botton {
+  text-align: center;
+}
