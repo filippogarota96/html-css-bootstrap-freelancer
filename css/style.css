@@ -1,7 +1,11 @@
 
-.nav-bar {
+.nav__bar {
   background-color: #2C3E50;
   color: #fff;
+}
+
+.firs-nav {
+  padding-top: 5px;
 }
 
 li {
@@ -105,7 +109,7 @@ li {
   .container_small {
     padding: 30px;
   }
-  
+
  }
 @media (min-width: 768px) and (max-width: @screen-sm-max) { ... }
 @media (min-width:992px) and (max-width: @screen-md-max) { ... }

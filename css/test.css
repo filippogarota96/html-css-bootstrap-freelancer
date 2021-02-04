@@ -1,0 +1,32 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.navbar {
+  background-color: #2C3E50;
+  color: #fff;
+}
+
+
+.first__nav {
+  padding-bottom: 10px;
+}
+.first__nav h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.second__nav {
+  text-align: right;
+  height: 100%;
+  padding-top: 20px
+}
+
+.second__nav li {
+  font-size: 20px;
+  padding: 0 20px;
+}
