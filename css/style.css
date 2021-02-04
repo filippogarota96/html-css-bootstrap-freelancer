@@ -1,51 +1,154 @@
 
-.nav__bar {
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header */
+.navbar {
   background-color: #2C3E50;
   color: #fff;
 }
 
-.firs-nav {
-  padding-top: 5px;
+
+.first__nav {
+  padding-bottom: 10px;
+}
+.first__nav h3 {
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
-li {
+.second__nav {
+  text-align: right;
+  height: 100%;
+  padding-top: 20px
+}
+
+.second__nav li {
+  font-size: 20px;
+  padding: 0 20px;
   list-style: none;
   display: inline-block;
 }
-.second-nav {
-  text-align: right;
-  padding: 20px 0;
+
+.second__nav a {
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.second__nav a:hover {
+  color: green;
 }
 
-/* .boy {
-  height: 200px;
-  background-color:#fff;
-  width: 200px;
-  margin: auto;
-  border-radius: 50%;
-} */
+.jumbotron {
+  background-color: #1ABC9C;
+  width: 100%
+  height: 600px;
+}
 
-.jumbo_title {
+.title {
+  width: 50%;
+  margin: 80px auto;
+  padding-top: 20px;
   text-align: center;
 }
 
-/* corpo del testo */
+.title img {
+  height: 200px;
+
+}
+
+.jumbo_title  {
+  color: #fff;
+}
+
+.jumbo_title h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.jumbo_title p {
+  font-size: 30px;
+}
+
+.decoration {
+  vertical-align: middle;
+}
+.line_decoration {
+  width: 150px;
+  height: 3px;
+  background-color: white;
+  display: inline-block;
+
+}
+
+.star_decoration {
+  display: inline-block;
+  color: #fff;
+  padding: 4% 3%;
+  font-size: 30px;
+}
+/*/ header */
+
+/* prima sezione */
 
 .section_title{
   text-align: center;
   padding: 50px 0;
 }
-
+.decoration_black {
+  background-color: black;
+}
+.star_black {
+  color: black;
+}
 .box {
-  background-color: #BA4C63;
-  height: 200px;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.box img {
+  max-height: 100%;
   border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ebc9c;
+  border-radius: 30px;
+  overflow: hidden;
+  z-index: 0;
+}
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.overlay i {
+  display: block;
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
 }
 
 .mb-5 {
   margin-bottom: 3rem;
 }
-
 .portfolio {
   padding-bottom: 50px;
 }
