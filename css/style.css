@@ -30,6 +30,8 @@ body {
 .second__nav li {
   font-size: 20px;
   padding: 0 20px;
+}
+li {
   list-style: none;
   display: inline-block;
 }
@@ -40,7 +42,7 @@ body {
   text-transform: uppercase;
 }
 .second__nav a:hover {
-  color: green;
+  color: #1ABC9C;
 }
 
 .jumbotron {
@@ -234,11 +236,36 @@ body {
 .footer_up {
   background-color: #2C3E50;
   color: #fff;
-  padding-top: 30px
+  padding: 50px 0;
+}
+.footer_text {
+  text-align: center;
+}
+.footer_text h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.footer_up p {
+   padding: 3%;
+   display: inline-block;
+}
+
+.footer_up a {
+  color: white;
+  font-size: 20px;
+  border: 2px white solid;
+  padding: 11px 13px;
+  border-radius: 50%;
+}
+#start {
+  color: #1ABC9C;
+  border: none;
+  margin-top: 10px;
 }
 .footer_down {
   background-color: #1A252F;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 .copyright {
   text-align: center;
@@ -251,7 +278,10 @@ body {
   .container_small {
     padding: 30px;
   }
+  .first__nav h3 {
+    font
+  }
 
- }
+}
 @media (min-width: 768px) and (max-width: @screen-sm-max) { ... }
 @media (min-width:992px) and (max-width: @screen-md-max) { ... }
