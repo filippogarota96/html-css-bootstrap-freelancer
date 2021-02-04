@@ -30,3 +30,12 @@ body {
   font-size: 20px;
   padding: 0 20px;
 }
+
+.second__nav a {
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.second__nav a:hover {
+  color: green;
+}
