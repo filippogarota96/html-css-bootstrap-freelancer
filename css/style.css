@@ -94,9 +94,19 @@ body {
 
 /* prima sezione */
 
-.section_title{
+
+.section_title {
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
+}
+
+.section_title h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.portfolio .section_title h2 {
+  color: black;
 }
 .decoration_black {
   background-color: black;
@@ -152,10 +162,44 @@ body {
 .portfolio {
   padding-bottom: 50px;
 }
+/* /prima sezione */
 
+/* seconda sezione */
 .about {
   background-color: #1ABC9C;
 }
+
+.section_text {
+  padding-bottom: 30px;
+}
+
+.section_text p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.about_botton {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.about_botton > .btn {
+  width: 40%;
+  background-color: #1ABC9C;
+  border: 2px solid white;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.about_botton > .btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* /seconda sezione */
+
 
 .contact {
   background-color: #fff;
@@ -169,9 +213,6 @@ body {
 
 #second_small {
   background-color: #fff;
-}
-.about_botton {
-  text-align: center;
 }
 
 .data {
