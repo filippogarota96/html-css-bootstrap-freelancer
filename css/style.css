@@ -2,9 +2,16 @@
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+ font-family: 'Lato', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 /* header */
 .navbar {
@@ -13,11 +20,11 @@ body {
 }
 
 
-.first__nav {
+.logo {
   padding-bottom: 10px;
 }
-.first__nav h3 {
-  font-size: 24px;
+.logo h3 {
+  font-size: 28px;
   text-transform: uppercase;
 }
 
@@ -28,8 +35,14 @@ body {
 }
 
 .second__nav li {
-  font-size: 20px;
+  font-size: 18px;
   padding: 0 20px;
+}
+
+.second__nav .btn {
+  margin-left: 40%;
+  margin-right: 2%
+  font-size: 80%;
 }
 li {
   list-style: none;
@@ -45,10 +58,9 @@ li {
   color: #1ABC9C;
 }
 
-.jumbotron {
+.hero {
   background-color: #1ABC9C;
-  width: 100%
-  height: 600px;
+  max-width: 100%
 }
 
 .title {
@@ -63,34 +75,46 @@ li {
 
 }
 
-.jumbo_title  {
+.hero_title  {
   color: #fff;
 }
 
-.jumbo_title h1 {
-  font-size: 70px;
+.hero_title h1 {
+  font-size: 64px;
   text-transform: uppercase;
 }
-.jumbo_title p {
+.hero_title p {
   font-size: 30px;
 }
 
-.decoration {
+.divider {
   vertical-align: middle;
+  color: currentColor;
 }
-.line_decoration {
-  width: 150px;
+
+.divider::after {
+  content: '';
+  width: 100px;
   height: 3px;
   background-color: white;
   display: inline-block;
+  border-radius: 3px;
+}
 
+.divider::before {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 3px;
 }
 
 .star_decoration {
   display: inline-block;
-  color: #fff;
   padding: 4% 3%;
   font-size: 30px;
+  vertical-align: middle;
 }
 /*/ header */
 
@@ -124,6 +148,7 @@ li {
   width: 100%;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 .box img {
   max-height: 100%;
@@ -139,12 +164,12 @@ li {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
   background-color: #1ebc9c;
   border-radius: 30px;
   overflow: hidden;
   z-index: 0;
 }
+
 .box:hover .overlay {
   opacity: 1;
 }
@@ -278,10 +303,39 @@ li {
   .container_small {
     padding: 30px;
   }
-  .first__nav h3 {
-    font
+  .logo h3 {
+    font-size: 20px;
+  }
+  .title {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 44px;
+  }
+}
+@media (min-width: 768px) {
+  .logo h3 {
+    font-size: 28px;
+  }
+  .title h1 {
+    font-size: 44px;
   }
 
-}
-@media (min-width: 768px) and (max-width: @screen-sm-max) { ... }
-@media (min-width:992px) and (max-width: @screen-md-max) { ... }
+ }
+@media (min-width:992px)  {
+  .logo h3 {
+    font-size: 28px;
+  }
+
+  .title h1 {
+    font-size: 44px;
+  }
+
+ }
+
+@media (min-width: 1200px) {
+  .title h1 {
+    font-size: 64px;
+  }
+
+ }
